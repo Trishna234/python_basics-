@@ -1,3 +1,4 @@
+from function import first_function
 # set store multiple items in single variables.
 # set items are unordered, unchangeable and doesn't allow duplicate value
 # my_set = {1, 2, 3, 4, 4, 5, 2, 3, 2, 1}
@@ -59,3 +60,7 @@ x1 = fruits.union(x)
 x2 = fruits.intersection(x)
 print(x2)
 print(x1)
+
+
+print(first_function())
+
