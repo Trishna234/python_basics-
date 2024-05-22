@@ -1,3 +1,4 @@
+# *args  and **kwargs arguments, keyword arguments
 def first_function(*args, **kwargs):
     for i in args:
         print(i)
@@ -6,5 +7,5 @@ def first_function(*args, **kwargs):
 
 
 a = (1, 3, 4, 4)
-b = {"name": "trishna", "address": "nepalgunj", "college":"abc"}
-first_function(*a,**b)
+b = {"name": "trishna", "address": "nepalgunj", "college": "abc"}
+first_function(*a, **b)

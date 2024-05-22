@@ -1,5 +1,5 @@
-# dictionay add data in key, value, pairs,
-# it is ordered, changeable and doesnot allow key duplicate
+# dictionary add data in key, value, pairs,
+# it is ordered, changeable and doesn't allow key duplicate
 info = {
     "name": "Trishna",
     "age": 22,

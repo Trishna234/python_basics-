@@ -32,6 +32,6 @@ a, b, c, d = number(num2=10, num1=5)  # keyword arguments
 print(a)
 
 
-# *args  and **kwargs arguments, keyword arguments
+
 
 
