@@ -1,32 +1,24 @@
 # python decorator allows to change the behavior of a function without modifying the function  itself
 # and takes another function as parameter.
 
-def decorator_function(original_function):
-    def wrapper_function(*args, **kwargs):
-        print("start..........")
-        result = original_function(*args, **kwargs)
+def function(function_1):
+    def function_2(*args, **kwargs):
+        print("start.......")
+        result = function_1(*args, **kwargs)
         print(result)
-        print("End..........")
+        print("end........")
         return result
 
-    return wrapper_function
+    return function_2()
 
 
-@decorator_function
 def name(a):
     return a
 
 
-@decorator_function
-def place(b):
+def address(b):
     return b
 
 
 x = name("Trishna")
-print(x)
-y = place("npj")
-print(y)
-
-
-
-
+y = address("ktm")
